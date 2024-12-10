@@ -26,12 +26,12 @@ Replace the placeholders (api_base, api_version, api_key_main, deployment_name, 
 
 
 # Getting Started
-1. Install Dependencies
+### 1. Install Dependencies
 Ensure you have Python 3.10 or later installed. Create a virtual environment and install the necessary packages by running:
 
 ``` python -m venv venv source venv/bin/activate # On macOS/Linux venv\Scripts\activate # On Windows pip install -r requirements.txt ```
 
-2. Running Experiments
+### 2. Running Experiments
 You can reproduce the experiments from the paper using the provided scripts.
 
 Run a specific experiment: To execute one of the experiments, run:
@@ -40,10 +40,10 @@ Run a specific experiment: To execute one of the experiments, run:
 
 Replace exp1.py with any of the experiment scripts available (exp2.py, exp3.py, exp4.py).
 
-3. Example usage
+### 3. Example usage
 An example how to use SMART is provided under notebooks/Usage Example.ipynb
 
-4. Citation
+### 4. Citation
 If you found this repository useful, please consider citing our paper:
 
 ```
