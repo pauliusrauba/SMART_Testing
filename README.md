@@ -31,12 +31,7 @@ Ensure you have Python 3.10 or later installed. Create a virtual environment and
 
 ``` python -m venv venv source venv/bin/activate # On macOS/Linux venv\Scripts\activate # On Windows pip install -r requirements.txt ```
 
-2. Repository Structure
-Here is the structure of the repository:
-
-├── LICENSE ├── README.md ├── datasets/ # Datasets used in experiments │ ├── Loan_default.csv │ ├── coimbra_breast_cancer.csv │ ├── compas-scores-two-years-violent.csv │ ├── default_of_credit_card_clients.csv │ ├── diabetes.csv │ └── studentInfo.csv ├── experiments/ # Python scripts for running experiments │ ├── exp1.py │ ├── exp2.py │ ├── exp3.py │ └── exp4.py ├── notebooks/ # Jupyter notebooks for analysis and visualization │ ├── Experiment_5_1.ipynb │ ├── Usage example.ipynb │ └── figures/ │ └── experiments_fig1_0121.pdf ├── requirements.txt # Required Python packages ├── setup.py # Setup script for the repository └── src/ # Source code for SMART Testing ├── SMART.py # Main SMART Testing implementation ├── init.py ├── dataset_helpers.py # Utility functions for datasets ├── openai_config.py # LLM API key configuration (user-created) ├── subgroup_helpers.py # Functions for handling subgroups ├── utils.py # General utilities ├── benchmarks/ # Benchmarking with other frameworks │ ├── aif360_old │ ├── divexplorer │ ├── pysubgroup │ ├── slicefinder │ └── sliceline └── experiments/ └── run_scripts/ # Scripts for running experimental workflows
-
-3. Running Experiments
+2. Running Experiments
 You can reproduce the experiments from the paper using the provided scripts.
 
 Run a specific experiment: To execute one of the experiments, run:
@@ -45,10 +40,10 @@ Run a specific experiment: To execute one of the experiments, run:
 
 Replace exp1.py with any of the experiment scripts available (exp2.py, exp3.py, exp4.py).
 
-4. Example usage
+3. Example usage
 An example how to use SMART is provided under notebooks/Usage Example.ipynb
 
-5. Citation
+4. Citation
 If you found this repository useful, please consider citing our paper:
 
 ```
